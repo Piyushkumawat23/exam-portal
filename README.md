@@ -78,10 +78,16 @@ This is a backend assessment project for DCS Technosis. It features a Laravel ba
    git clone <your-repo-url>
    cd project-folder
 
+php.ini 
+;extension=sodium
+enable
+extension=sodium
+
 2. **Install Dependencies**
    ```bash  
     composer install
     ```
+    
 3. **Environment Setup**
    - Copy the `.env.example` file to `.env`
    - Configure your database settings in the `.env` file
