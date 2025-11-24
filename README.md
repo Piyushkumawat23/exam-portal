@@ -103,3 +103,11 @@ This is a backend assessment project for DCS Technosis. It features a Laravel ba
    php artisan serve
    ```
    
+
+   Card Number: 4242 4242 4242 4242
+
+MM / YY (Expiry): Koi bhi Future Date (e.g., 12/30)
+
+CVC: Koi bhi 3 digit (e.g., 123)
+
+ZIP / Postal Code: Koi bhi (e.g., 12345)
