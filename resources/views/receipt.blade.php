@@ -50,7 +50,6 @@
             </tr>
         </tbody>
     </table>
-
     <div class="footer">
         <p>Transaction ID: {{ $payment->payment_id }}</p>
     </div>
