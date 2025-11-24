@@ -30,3 +30,8 @@ Route::get('/admin/forms', function () {
 Route::get('/submission/{id}', function ($id) {
     return view('submission-view', ['submission_id' => $id]);
 });
+
+
+
+
+
