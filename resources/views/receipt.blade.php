@@ -52,7 +52,6 @@
     </table>
 
     <div class="footer">
-        <p>This is a computer-generated receipt and does not require a signature.</p>
         <p>Transaction ID: {{ $payment->payment_id }}</p>
     </div>
 
