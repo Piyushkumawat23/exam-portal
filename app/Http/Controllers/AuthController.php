@@ -28,7 +28,7 @@ class AuthController extends Controller
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
-            'role' => 'student' // <-- YE LINE MISSING THI
+            'role' => 'user' 
         ]);
 
         return response()->json(['message'=>'User registered successfully']);
