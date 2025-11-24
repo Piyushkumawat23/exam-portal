@@ -32,6 +32,3 @@ Route::get('/submission/{id}', function ($id) {
 });
 
 
-
-
-
